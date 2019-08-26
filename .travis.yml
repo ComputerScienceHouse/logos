@@ -1,8 +1,7 @@
 deploy:
     access_key_id: $ACCESS_KEY
     bucket: $BUCKET
-    edge:
-        branch: sf-s3-subdomain
+    edge: true
     endpoint: $ENDPOINT
     force_path_style: true
     provider: s3
